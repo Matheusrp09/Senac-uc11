@@ -8,8 +8,8 @@
  * @author Adm
  */
 import java.sql.*;
-import javax.swing.JOptionPane;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class ProdutosDAO {
 
@@ -94,6 +94,5 @@ public class ProdutosDAO {
             }
         }
         return listagem;
-
     }
 }
